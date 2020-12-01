@@ -11,6 +11,7 @@ class Hello
     end
 
     def greeting
+        #puts is another way of saying print
         puts "Hi #{@name}!"
     end
 end
@@ -18,5 +19,5 @@ end
 #h is a variable & creates a new object
 h = Hello.new("Jeff")
 
-#Prints Hello Jeff
+#Prints Hi Jeff
 h.greeting
